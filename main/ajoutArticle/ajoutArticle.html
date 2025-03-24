@@ -10,8 +10,23 @@
 </head>
 
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <h1>Crée un article!</h1>
+    </header>
+    <main>
+        <form onsubmit="return soumettre()">
+            <h2>Titre</h2>
+            <input id="titreArticle" required>
+            <h3>Description</h3>
+            <input id="descriptionArticle" placeholder="C'est ce que les gens verront avant de cliqué !" required>
+            <h3>Contenu</h3>
+            <textarea id="contenuArticle" required></textarea>
+            <h3>Auteur</h3>
+            <input id="auteurArticle" required>
+            <br><br>
+            <button type="submit">Soumettez !</button>
+        </form>
+    </main>
     <footer></footer>
     <script src="./script.js"></script>
 </body>
