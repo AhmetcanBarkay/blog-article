@@ -1,0 +1,15 @@
+article {
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+}
+
+article:hover {
+    cursor: pointer;
+}
+
+#articles {
+    display: flex;
+    gap: 10px;
+}
